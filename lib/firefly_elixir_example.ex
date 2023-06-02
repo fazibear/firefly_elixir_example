@@ -1,7 +1,5 @@
 defmodule FireflyElixirExample do
-  alias UndefinedError
-
-  def init(args) do
+  def start(args) do
     :erlang.display(args)
   end
 end

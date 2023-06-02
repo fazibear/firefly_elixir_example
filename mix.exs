@@ -9,6 +9,7 @@ defmodule FireflyElixirExample.MixProject do
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       compilers: Mix.compilers() ++ [:firefly],
+      boot: {FireflyElixirExample, :start},
     ]
   end
 
